@@ -63,7 +63,18 @@ display.scroll("56 random points")
 time.sleep(.5)
 points = []
 while len(points)<56:
-    points.append([random.randint(0, 17), random.randint(0, 7), random.randint(1, 17)])
+    points.append([random.randint(0, 17), random.randint(0, 7), random.randint(3, 20)])
 
 for x in points:
     display.pixel(x[0], x[1], x[2])
+    time.sleep(.1)
+time.sleep(.5)
+for x in points:
+    display.pixel(x[0], x[1], 0)
+time.sleep(.2)
+for x in points:
+    display.pixel(x[0], x[1], x[2])
+time.sleep(.5)
+for x in points:
+    display.pixel(x[0], x[1], 0)
+    time.sleep(.1)
