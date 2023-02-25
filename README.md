@@ -8,4 +8,4 @@ Random code I will be writing for the Pico:ed by Elecfreaks.
 
 ![LED_Lines](assets/Lines.gif)
 
-*First code sample: LED_Lines.py*
+*Second code sample: LED_Lines.py*
